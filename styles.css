@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 12px 50px;
+}
+
+.main-header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+
+li { 
+    list-style: none;
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 100px;
+}
+
+.header-content {
+    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#web-title {
+    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
