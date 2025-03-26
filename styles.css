@@ -194,9 +194,12 @@ a {
 
 .footer {
   background-color: #1f2937;
-  height: 200px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
 }
