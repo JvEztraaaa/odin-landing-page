@@ -58,7 +58,7 @@ a {
 }
 
 .header-subtext {
-  padding-bottom: 8px;
+  padding-bottom: 15px;
 }
 
 .signup-button {
@@ -69,6 +69,13 @@ a {
   border: none;
   padding: 5px 30px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.signup-button:hover {
+  background-color: white;
+  color: #3882f6;
 }
 
 .header-image {
@@ -140,4 +147,56 @@ a {
   font-style: italic;
   color: #1f2937;
   text-align: center;
+}
+
+.signup {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 145px 250px;
+}
+
+.signup-bg {
+  height: 100%;
+  width: 100%;
+  padding: 0 130px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.signup-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+}
+
+#signup-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.button-white {
+  border: 2px solid white;
+  color: white;
+}
+
+.button-white:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
