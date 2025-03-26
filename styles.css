@@ -113,6 +113,15 @@ a {
   border-color: #3882f6;
   border-radius: 10px;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.random-image {
+  height: 100%;
+  width: 100%;
 }
 
 .quote {
