@@ -1,49 +1,112 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-header {
-    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    margin: 0;
-    padding: 12px 50px;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .main-header {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    display: flex;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
 }
 
-li { 
-    list-style: none;
-    display: inline;
+.main-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .header {
-    background-color: #1F2937;
-    padding: 100px;
+  background-color: #1f2937;
+  padding: 100px 250px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-content {
-    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    display: flex;
-    flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
 }
 
-#web-title {
-    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    color: #F9FAF8;
+.header-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+
+.header-subtext {
+  padding-bottom: 8px;
+}
+
+.signup-button {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.header-image {
+  height: 281px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.random {
+  background-color: white;
+  padding: 50px 400px;
+}
+
+.random-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.random-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.placeholder {
+  height: 220px;
+  width: 220px;
+  border: 5px solid #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
 }
